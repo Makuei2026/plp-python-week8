@@ -1,0 +1,24 @@
+==================================================
+           MY PYTHON TOOLKIT PLAN
+==================================================
+
+SELECTED TOOLS:
+1. Quick To-Do List: A simple list manager to view, add, and clear tasks.
+2. Simple Calculator: Performs basic arithmetic operations (Add, Subtract, Multiply, Divide) on two numbers safely.
+3. Number Guessing Game: A fun mini-game where the user guesses a secret number between 1 and 20 within limited attempts.
+
+EXACT MENU TEXT:
+==================================================
+              WELCOME TO MY TOOLKIT
+==================================================
+1. Quick To-Do List
+2. Simple Calculator
+3. Number Guessing Game
+4. Quit
+==================================================
+
+CONCEPTS USED PER TOOL:
+- Quick To-Do List: uses loops (while/for), list operations (.append(), .clear()), conditionals (if/elif/else), and f-strings.
+- Simple Calculator: uses conditionals (if/elif/else for operation choice and zero-division protection), arithmetic operators, and f-strings.
+- Number Guessing Game: uses pseudo-randomness (random.randint), loops (while loop for attempts), conditionals (greater/less than checks), and f-strings.
+- Main Menu Controller: uses a while loop for persistent execution, string input handling, and conditionals to route user choices safely.
